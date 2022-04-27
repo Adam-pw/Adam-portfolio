@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <div className={styles.main}>
         <div className={styles.heading}>
-          {"Hello !!"}
-          {"Myself Adam Pithenwala"}
-          {"From Madhav Institute of Technology And Science 🏫💯"}      
+          <div className={styles.main_p}>{"Hello !!"}</div>
+          <div className={styles.main_p}>{"Myself Adam Pithenwala"}</div>
+          <div className={styles.main_p}>{"From Madhav Institute of Technology And Science 🏫💯"}</div>      
         </div>
       </div>
   );

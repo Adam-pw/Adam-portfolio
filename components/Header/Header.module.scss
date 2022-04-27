@@ -1,4 +1,17 @@
-.main{
-    margin: 1rem 2rem;
-    background-color: aqua;
+.main {
+  margin: 1rem 2rem;
+  width: 50vw;
+  background-color: rgba(0, 255, 255, 0.376);
+
+  .main_p:nth-child(1) {
+    color: red;
+    font-size: 2rem;
+  }
+  .main_p:nth-child(2){
+      font-size: 3rem;
+  }
+  .main_p:nth-child(3){
+      font-size: 1rem;
+      text-align: center;
+  }
 }
