@@ -1,5 +1,5 @@
 .main {
-  margin: 1rem 2rem;
+  margin: 2vw 14vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -11,7 +11,6 @@
 
   .heading {
     width: 50vw;
-    margin-left: 2rem;
     @media only screen and (max-width: 700px) {
       width: 96vw;
       margin-bottom: 2rem;
