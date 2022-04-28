@@ -1,0 +1,56 @@
+.main {
+  margin: 3rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+  }
+
+  .card {
+    background-color: gray;
+    width: 18vw;
+    text-align: center;
+    border-radius: 2vw;
+    @media only screen and (max-width: 700px) {
+      width: 80vw;
+      margin: 2rem;
+    }
+
+    .content {
+      color: white;
+      font-size: 1.25rem;
+
+      .button {
+        margin: 2rem;
+        background-color: black;
+        color: white;
+        width: 12vw;
+        height: 5vh;
+        border: 0;
+        border-radius: 1vh;
+        @media only screen and (max-width: 700px) {
+          width: 70vw;
+          margin: 2rem 1rem;
+        }
+      }
+    }
+    .circle {
+      background-color: white;
+      width: 16vw;
+      margin: 1rem auto;
+      border-radius: 50%;
+      @media only screen and (max-width: 700px) {
+        width: 70vw;
+      }
+
+      .photo {
+        width: 15vw;
+        @media only screen and (max-width: 700px) {
+          width: 65vw;
+        }
+      }
+    }
+  }
+}
