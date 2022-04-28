@@ -1,5 +1,5 @@
 .main {
-  margin: 3rem 2rem;
+  margin: 3rem 6rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -30,9 +30,15 @@
         height: 5vh;
         border: 0;
         border-radius: 1vh;
+        cursor: pointer;
         @media only screen and (max-width: 700px) {
           width: 70vw;
           margin: 2rem 1rem;
+        }
+
+        &:hover{
+          background-color: gray;
+          border: 3px solid black;
         }
       }
     }
