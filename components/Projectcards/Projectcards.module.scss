@@ -1,0 +1,30 @@
+.main {
+  margin: 3vw 12vw;
+  background-color: rgba(200, 198, 198, 0.739);
+  padding: 1rem 0rem;
+  border-radius: 1vw;
+
+  .imgs{
+    margin: 0vw 3vw;
+    width: 76vw;
+
+    .photo {
+      width: 70vw;
+      border-radius: 1vw;
+    }
+  }
+  .content{
+    margin: 1vw 3vw;
+
+    .title{
+        font-size: 2vw;
+        letter-spacing: 0.25vw;
+        margin-bottom: 1vw;
+    }
+
+    .des{
+        font-size: 1vw;
+        color: rgba(0, 0, 0, 0.678);
+    }
+  }
+}
