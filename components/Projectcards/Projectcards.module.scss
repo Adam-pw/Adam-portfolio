@@ -1,29 +1,52 @@
 .main {
-  margin: 3vw 12vw;
-  background-color: rgba(200, 198, 198, 0.739);
+  margin: 0vw 12vw;
   padding: 1rem 0rem;
   border-radius: 1vw;
-
-  .imgs{
-    margin: 0vw 3vw;
-    width: 76vw;
-
-    .photo {
-      width: 70vw;
-      border-radius: 1vw;
-    }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  @media only screen and (max-width: 700px) {
+    padding: 0rem;
+    flex-direction: column;
   }
-  .content{
-    margin: 1vw 3vw;
+  
+  .card {
+    background-color: rgba(200, 198, 198, 0.739);
+    width: 35vw;
+    border-radius: 1vw;
+    @media only screen and (max-width: 700px) {
+      width: 76vw;
+      margin-bottom: 3vw;
+    }
 
-    .title{
+    .imgs {
+      margin: 1vw 1.5vw;
+      width: 32vw;
+      @media only screen and (max-width: 700px) {
+        width: 73vw;
+      }
+
+      .photo {
+        width: 32vw;
+        border-radius: 1vw;
+        @media only screen and (max-width: 700px) {
+          width: 73vw;
+        }
+      }
+    }
+    .content {
+      margin: 1vw 1.5vw;
+
+      .title {
         font-size: 4vh;
         letter-spacing: 0.25vw;
         margin-bottom: 1vw;
-    }
+      }
 
-    .des{
+      .des {
         color: rgba(0, 0, 0, 0.678);
+      }
     }
   }
 }

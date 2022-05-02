@@ -23,7 +23,6 @@ export default function Home() {
       <Descrip />
       <Projectcards />
       <Projectcards />
-      <Projectcards />
       <Cards />
       <Footer />
     </>
