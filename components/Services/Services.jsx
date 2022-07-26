@@ -12,7 +12,7 @@ const Services = () => {
                         <b>Web Design</b>
                     </div>
                     <div className={styles.subhead}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ratione excepturi incidunt possimus! Voluptate.
+                        Design to me is something magical - I am lucky that it lets me get creative and build new projects.
                     </div>
                 </div>
                 <div className={styles.box}>
@@ -20,7 +20,7 @@ const Services = () => {
                         <b>Product Design</b>
                     </div>
                     <div className={styles.subhead}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta excepturi recusandae enim accusamus.
+                        {"Even single project is a challenge that I accept eagerly. Let's implement innovative ideas together."} 
                     </div>
                 </div>
             </div>
@@ -30,15 +30,15 @@ const Services = () => {
                         <b>UI/UX Design</b>
                     </div>
                     <div className={styles.subhead}>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic impedit facere repellendus architecto ut!
+                        I am willing to solve any inquiry that comes from your side within minutes.
                     </div>
                 </div>
                 <div className={styles.box}>
                     <div className={styles.heading}>
-                        <b>Art Direction</b>
+                        <b>Artificial Intelligence</b>
                     </div>
                     <div className={styles.subhead} >
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero esse eveniet ipsum quod explicabo?
+                        I will deliver my best in each and every project given to me. So you can trust me with everything.
                     </div>
                 </div>
             </div>

@@ -15,30 +15,30 @@ const Descrip = () => {
                 </div>
                 <div className={styles.area2}>
                     <div className={styles.head}>
-                        <b>{"Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde amet temporibus saepe. Lorem ipsum dolor sit amet consectetur."}</b>
+                        <b>{"I am pursuing Bachlor of Technology in Artificial Intelligence & Data Science. With skill set of Web Development, Machine learning and Problem solving."}</b>
                     </div>
                     <div className={styles.subhead}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet corrupti quod? Eveniet quia assumenda expedita numquam aperiam!
+                        Completed my higher education from Gyan Sagar Academy, Ujjain. Currently student of Madhav Institute of Technology & Science, Gwalior.
                     </div>
                     <div className={styles.info}>
                         <div>BORN IN</div>
-                        <div>EXPERIENCE</div>
+                        <div>COLLEGE</div>
                         <div>DATE OF BIRTH</div>
                     </div>
                     <div className={styles.info2}>
                         <div><b>Ujjain, India</b></div>
-                        <div><b>10+ Years</b></div>
+                        <div><b>MITS, Gwalior</b></div>
                         <div><b>03 January 2003</b></div>
                     </div>
                 </div>
             </div>
             <div className={styles.main2}>
                 <div className={styles.one}>
-                    <div className={styles.namehead}>7+</div>
+                    <div className={styles.namehead}>1+</div>
                     <div className={styles.namesub}><b>YEARS OF EXPERIENCE</b></div>
                 </div>
                 <div className={styles.two}>
-                    <div className={styles.namehead}>7+</div>
+                    <div className={styles.namehead}>15+</div>
                     <div className={styles.namesub}><b>PROJECTS COMPLETED</b></div>
                 </div>
                 <div className={styles.one}>
