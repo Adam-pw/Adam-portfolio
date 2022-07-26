@@ -7,6 +7,7 @@ import Projectcards from '../components/Projectcards/Projectcards'
 import styles from '../styles/Home.module.scss'
 
 import Head from 'next/head'
+import Line from '../components/Line/Line'
 
 export default function Home() {
   return (
@@ -18,11 +19,12 @@ export default function Home() {
         <meta name="Description" content="About Adam Pithenwala" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      {/* <Navbar /> */}
+      <Navbar />
       <Header />
+      <Line/>
       <Descrip />
-      <Projectcards />
-      <Projectcards />
+      {/* <Projectcards /> */}
+      {/* <Projectcards /> */}
       <Cards />
       <Footer />
     </>

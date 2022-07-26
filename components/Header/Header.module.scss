@@ -4,38 +4,56 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  @media only screen and (max-width: 700px) {
-    flex-direction: column;
-  }
+  // @media only screen and (max-width: 700px) {
+  //   flex-direction: column;
+  // }
 
   .heading {
     width: 50vw;
-    @media only screen and (max-width: 700px) {
-      width: 76vw;
-      margin-bottom: 2rem;
-    }
-    .main_p:nth-child(1) {
-      font-size: 2vw;
-      margin-bottom: 0.5rem;
-      letter-spacing: 0.25vw;
-      @media only screen and (max-width: 700px) {
-        font-size: 4vw;
-      }
-    }
-    .main_p:nth-child(2) {
-      color: red;
+    // @media only screen and (max-width: 700px) {
+    //   width: 76vw;
+    //   margin-bottom: 2rem;
+    // }
+    .main_p {
       font-size: 3vw;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.5vw;
       letter-spacing: 0.25vw;
-      @media only screen and (max-width: 700px) {
-        font-size: 6vw;
-      }
+      // @media only screen and (max-width: 700px) {
+      //   font-size: 4vw;
+      // }
     }
-    .main_p:nth-child(3) {
-      font-size: 1vw;
+    .main_pc {
+      margin-top: 2vw;
+      font-size: 1.5vw;
+      margin-bottom: 0.5vw;
       letter-spacing: 0.25vw;
-      @media only screen and (max-width: 700px) {
-        font-size: 2vw;
+      // @media only screen and (max-width: 700px) {
+      //   font-size: 4vw;
+      // }
+    }
+    .buttonc {
+      margin-top: 2vw;
+      font-size: 1.2vw;
+      background-color: #171513;
+      color: white;
+      width: 18vw;
+      // height: 6vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .name{
+        margin-left: 1rem;
+      }
+      .button {
+        font-size: 1.2vw;
+        background-color: white;
+        color: #171513;
+        border: 2px solid #171513;
+        width: 9vw;
+        text-align: center;
+        cursor: pointer;
+        padding: 0.65vw;
+        // height: 6vh;
       }
     }
   }
@@ -43,9 +61,9 @@
     .img {
       width: 25vw;
       border-radius: 3vw;
-      @media only screen and (max-width: 700px) {
-        width: 80vw;
-      }
+      // @media only screen and (max-width: 700px) {
+      //   width: 80vw;
+      // }
     }
   }
 }
