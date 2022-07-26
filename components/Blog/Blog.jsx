@@ -7,7 +7,7 @@ const Blog = () => {
             <div className={styles.head}>
                 <b>My Personal Blog</b>
             </div>
-            <div className={styles.sub}>Views & Accoimplishments</div>
+            <div className={styles.sub}>VIEWS & ACCOIMPLISHMENTS</div>
             <div className={styles.box}>
                 <div className={styles.box1}>
                     <div className={styles.box11}>PUBLISH DATE : 4 JANUARY 2020</div>

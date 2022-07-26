@@ -10,6 +10,7 @@ import Head from 'next/head'
 import Line from '../components/Line/Line'
 import Skills from '../components/Skills/Skills'
 import Blog from '../components/Blog/Blog'
+import Services from '../components/Services/Services'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <Descrip />
       <Cards />
       <Blog />
+      <Services />
       <Skills />
       {/* <Projectcards /> */}
       {/* <Projectcards /> */}
