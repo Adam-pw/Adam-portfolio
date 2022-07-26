@@ -8,6 +8,7 @@ import styles from '../styles/Home.module.scss'
 
 import Head from 'next/head'
 import Line from '../components/Line/Line'
+import Skills from '../components/Skills/Skills'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Header />
       <Line/>
       <Descrip />
+      <Skills/>
       {/* <Projectcards /> */}
       {/* <Projectcards /> */}
       <Cards />

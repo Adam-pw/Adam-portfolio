@@ -1,0 +1,40 @@
+.head{
+    font-size: 3vw;
+    text-align: center;
+}
+.parent{
+    margin: 4vw 16vw 2vw 16vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .box{
+        width: 20%;
+        font-size: 1.5vw;
+        padding: 2vw;
+        text-align: center;
+        border: 0.2vw solid #171513;
+        &:hover{
+            background-color: #171513;
+            color: white;
+        }
+    }
+}
+.parent2{
+    margin: 2vw 16vw 8vw 16vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .box{
+        width: 20%;
+        font-size: 1.5vw;
+        padding: 2vw;
+        text-align: center;
+        border: 0.2vw solid #171513;
+        &:hover{
+            background-color: #171513;
+            color: white;
+        }
+    }
+}
