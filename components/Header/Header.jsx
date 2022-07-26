@@ -3,6 +3,7 @@ import styles from "./Header.module.scss"
 
 const Header = () => {
   return (
+
     <div className={styles.main}>
       <div className={styles.heading}>
         <div className={styles.main_p}><b>{"HI, I'M ADAM."}</b></div>
@@ -17,6 +18,7 @@ const Header = () => {
         <img className={styles.img} src="/images/img.jpeg" alt="HELLO" />
       </div>
     </div>
+
   );
 }
 

@@ -1,9 +1,12 @@
 import React from 'react'
 import styles from "./Services.module.scss"
 
+import { Fade } from 'react-reveal'
+
 const Services = () => {
     return (
         <>
+        <Fade bottom>
             <div className={styles.head}><b>Services</b></div>
             <div className={styles.sub}>REGONITIONS & ACCOIMPLISHMENTS</div>
             <div className={styles.parent}>
@@ -42,6 +45,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
+            </Fade>
         </>
     )
 }

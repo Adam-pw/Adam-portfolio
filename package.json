@@ -19,6 +19,7 @@
     "react-icons": "^4.4.0",
     "react-media-query": "^0.1.0",
     "react-responsive": "^9.0.0-beta.6",
+    "react-reveal": "^1.2.2",
     "sass": "^1.51.0"
   },
   "devDependencies": {
