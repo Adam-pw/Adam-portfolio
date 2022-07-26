@@ -9,6 +9,7 @@ import styles from '../styles/Home.module.scss'
 import Head from 'next/head'
 import Line from '../components/Line/Line'
 import Skills from '../components/Skills/Skills'
+import Blog from '../components/Blog/Blog'
 
 export default function Home() {
   return (
@@ -22,9 +23,10 @@ export default function Home() {
       </Head>
       <Navbar />
       <Header />
-      <Line/>
+      <Line />
       <Descrip />
-      <Skills/>
+      <Blog />
+      <Skills />
       {/* <Projectcards /> */}
       {/* <Projectcards /> */}
       <Cards />
