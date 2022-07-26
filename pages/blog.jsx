@@ -3,8 +3,6 @@ import Descrip from '../components/Descrip/Descrip'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import Navbar from '../components/Navbar/Navbar'
-import Projectcards from '../components/Projectcards/Projectcards'
-import styles from '../styles/Home.module.scss'
 
 import Head from 'next/head'
 import Line from '../components/Line/Line'
@@ -12,7 +10,7 @@ import Skills from '../components/Skills/Skills'
 import Blogcom from '../components/Blogcom/Blogcom'
 import Services from '../components/Services/Services'
 
-export default function Home() {
+export default function Blog() {
   return (
     <>
       <Head>
@@ -23,15 +21,6 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navbar />
-      <Header />
-      <Line />
-      <Descrip />
-      <Cards />
-      <Blogcom />
-      <Services />
-      <Skills />
-      {/* <Projectcards /> */}
-      {/* <Projectcards /> */}
       <Footer />
     </>
   )
