@@ -36,12 +36,19 @@
   }
 }
 
-.button {
-  margin: 2vw 14vw;
-  color: white;
+.cont {
+  margin: 0vw 14vw 2vw 14vw;
   background-color: #171513;
-  text-align: center;
-  padding: 1vw;
-  font-size: 1vw;
   margin-bottom: 10vw;
+  text-align: center;
+  cursor: pointer;
+  .button {
+    color: white;
+    background-color: #171513;
+    text-align: center;
+    padding: 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+    border: 0;
+  }
 }

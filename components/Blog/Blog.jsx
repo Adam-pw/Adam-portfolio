@@ -35,7 +35,16 @@ const Blog = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum modi facilis necessitatibus. Libero cum ipsam illo, facere itaque eaque?
                 </div>
             </div>
-            <div className={styles.button}>Browse More Blogs</div>
+            <div className={styles.box}>
+                <div className={styles.box1}>
+                    <div className={styles.box11}>PUBLISH DATE : 4 JANUARY 2020</div>
+                    <div className={styles.box12}><b>what did i learn</b></div>
+                </div>
+                <div className={styles.box2}>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum modi facilis necessitatibus. Libero cum ipsam illo, facere itaque eaque?
+                </div>
+            </div>
+            <div className={styles.cont}><button className={styles.button} type='button'>Browse More Blogs</button></div>
         </>
     )
 }

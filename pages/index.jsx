@@ -25,11 +25,11 @@ export default function Home() {
       <Header />
       <Line />
       <Descrip />
+      <Cards />
       <Blog />
       <Skills />
       {/* <Projectcards /> */}
       {/* <Projectcards /> */}
-      <Cards />
       <Footer />
     </>
   )
