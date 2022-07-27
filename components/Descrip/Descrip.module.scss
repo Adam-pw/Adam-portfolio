@@ -8,9 +8,20 @@
     .name {
       font-size: 2vw;
       margin-bottom: 1.5vw;
+      @media only screen and (max-width: 700px) {
+       font-size: 4vw;
+       margin-bottom: 3vw;
+      }
     }
     .heading {
       font-size: 3vw;
+      @media only screen and (max-width: 700px) {
+        font-size: 6vw;
+        margin-bottom: 4vw;
+      }
+    }
+    @media only screen and (max-width: 700px) {
+      width: 100%;
     }
   }
   .area2 {
@@ -18,10 +29,18 @@
     .head {
       font-size: 2vw;
       margin-bottom: 1.5vw;
+      @media only screen and (max-width: 700px) {
+        margin-bottom: 3vw;
+        font-size: 4vw;
+      }
     }
     .subhead {
       margin-bottom: 2vw;
       font-size: 1vw;
+      @media only screen and (max-width: 700px) {
+        margin-bottom: 4vw;
+        font-size: 2vw;
+      }
     }
     .info {
       display: flex;
@@ -30,13 +49,26 @@
       font-size: 1vw;
       margin-bottom: 1vw;
       justify-content: space-between;
+      @media only screen and (max-width: 700px) {
+        margin-bottom: 2vw;
+        font-size: 2vw;
+      }
     }
     .info2 {
       display: flex;
       flex-direction: row;
       font-size: 1.5vw;
       justify-content: space-between;
+      @media only screen and (max-width: 700px) {
+        font-size: 3vw;
+      }
     }
+    @media only screen and (max-width: 700px) {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
   }
 }
 
@@ -53,10 +85,19 @@
       margin-top: 1vw;
       margin-bottom: 1vw;
       font-size: 3vw;
+      @media only screen and (max-width: 700px) {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        font-size: 6vw;
+      }
     }
     .namesub {
       margin-bottom: 1vw;
       font-size: 1vw;
+      @media only screen and (max-width: 700px) {
+        font-size: 2vw;
+        margin-bottom: 2vw;
+      }
     }
   }
   .one {
@@ -67,10 +108,22 @@
       margin-top: 1vw;
       margin-bottom: 1vw;
       font-size: 3vw;
+      @media only screen and (max-width: 700px) {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        font-size: 6vw;
+      }
     }
     .namesub {
       margin-bottom: 1vw;
       font-size: 1vw;
+      @media only screen and (max-width: 700px) {
+        margin-bottom: 2vw;
+        font-size: 2vw;
+      }
     }
+  }
+  @media only screen and (max-width: 700px) {
+    margin: 6vw 8vw 12vw 8vw;
   }
 }
