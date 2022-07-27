@@ -2,11 +2,19 @@
   font-size: 3vw;
   text-align: center;
   margin-bottom: 1vw;
+  @media only screen and (max-width: 700px) {
+    font-size: 6vw;
+    margin-bottom: 2vw;
+  }
 }
 .sub {
     font-size: 1.5vw;
     text-align: center;
     margin-bottom: 4vw;
+    @media only screen and (max-width: 700px) {
+      font-size: 3vw;
+      margin-bottom: 8vw;
+    }
   }
 .parent {
   margin: 4vw 16vw 2vw 16vw;
@@ -26,11 +34,29 @@
     .heading {
       font-size: 1.5vw;
       margin-bottom: 1.5vw;
+      @media only screen and (max-width: 700px) {
+        font-size: 3vw;
+        margin-bottom: 3vw;
+      }
     }
     .subhead {
       font-size: 1vw;
       color: gray;
+      @media only screen and (max-width: 700px) {
+        font-size: 2vw;
+      }
     }
+    @media only screen and (max-width: 700px) {
+      width: 90%;
+      font-size: 3vw;
+      margin-bottom: 4vw;
+      padding: 4vw;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+    margin: 4vw 12vw 0vw 12vw;
+    justify-content: flex-start;
   }
 }
 .parent2 {
@@ -47,14 +73,32 @@
     .heading {
       font-size: 1.5vw;
       margin-bottom: 1.5vw;
+      @media only screen and (max-width: 700px) {
+        font-size: 3vw;
+        margin-bottom: 3vw;
+      }
     }
     .subhead {
       font-size: 1vw;
       color: gray;
+      @media only screen and (max-width: 700px) {
+        font-size: 2vw;
+      }
     }
     &:hover {
         background-color: #171513;
         color: white;
       }
-  }
+      @media only screen and (max-width: 700px) {
+        width: 90%;
+        font-size: 3vw;
+        padding: 4vw;
+        margin-bottom: 4vw;
+      }
+    }
+    @media only screen and (max-width: 700px) {
+      flex-direction: column;
+      justify-content: flex-start;
+      margin: 0vw 12vw 10vw 12vw;
+    }
 }
