@@ -1,31 +1,43 @@
-.main{
-    margin: 1vw 8vw 6vw 8vw;
+.main {
+  margin: 1vw 8vw 6vw 8vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .name {
+    font-size: 2vw;
+    cursor: pointer;
+    @media only screen and (max-width: 700px) {
+        font-size: 4vw;
+      }
+  }
+  .content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    .name{
+    width: 20vw;
+    font-size: 1vw;
+    cursor: pointer;
+    @media only screen and (max-width: 700px) {
         font-size: 2vw;
-        cursor: pointer;
+        width: 40vw;
+      }
+  }
+  .let {
+    .button {
+      font-size: 1vw;
+      background-color: white;
+      color: #171513;
+      border: 0.2vw solid #171513;
+      width: 6vw;
+      text-align: center;
+      cursor: pointer;
+      padding: 0.65vw;
+      @media only screen and (max-width: 700px) {
+        padding: 1.3vw;
+        font-size: 2vw;
+        width: 12vw;
+      }
     }
-    .content{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 20vw;
-        font-size: 1vw;
-        cursor: pointer;
-    }
-    .let{
-        .button {
-            font-size: 1vw;
-            background-color: white;
-            color: #171513;
-            border: 0.2vw solid #171513;
-            width: 6vw;
-            text-align: center;
-            cursor: pointer;
-            padding: 0.65vw;
-          }
-    }
+  }
 }
