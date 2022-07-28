@@ -15,7 +15,7 @@ const Blogcom = () => {
                     <div className={styles.box}>
                         <div className={styles.box1}>
                             <div className={styles.box11}>PUBLISH DATE : 27 JULY 2022</div>
-                            <div className={styles.box12}><b>My Linux Customixation</b></div>
+                            <div className={styles.box12}><b>My Linux Customization</b></div>
                         </div>
                         <div className={styles.box2}>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, optio consequuntur! Eum eveniet vitae, dolor ducimus quisquam at pariatur. Officiis.

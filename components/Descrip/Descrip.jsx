@@ -31,7 +31,7 @@ const Descrip = () => {
                         <div className={styles.info2}>
                             <div><b>Ujjain, India</b></div>
                             <div><b>MITS, Gwalior</b></div>
-                            <div><b>03 January 2003</b></div>
+                            <div><b>08 January 2003</b></div>
                         </div>
                     </div>
                 </div>
