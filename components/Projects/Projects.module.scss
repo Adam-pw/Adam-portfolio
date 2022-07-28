@@ -26,6 +26,7 @@
     width: 50%;
     .pb {
       max-width: 100%;
+      border: 0.1vw solid black;
     }
   }
   .content {
@@ -41,7 +42,7 @@
       @media only screen and (max-width: 700px) {
         margin-bottom: 3vw;
         padding: 1vw;
-        font-size: 2.5vw;
+        font-size: 2vw;
       }
     }
     .subhead {
@@ -61,7 +62,7 @@
     }
   }
   @media only screen and (max-width: 700px) {
-    margin: 2vw 4vw 6vw 4vw;
+    margin: 2vw 6vw 6vw 6vw;
   }
 }
 
@@ -75,6 +76,7 @@
     margin-left: 4vw;
     .pb {
       max-width: 100%;
+      border: 0.1vw solid black;
     }
   }
   .content {
@@ -89,7 +91,7 @@
       @media only screen and (max-width: 700px) {
         margin-bottom: 3vw;
         padding: 1vw;
-        font-size: 2.5vw;
+        font-size: 2vw;
       }
     }
     .subhead {
@@ -109,6 +111,6 @@
     }
   }
   @media only screen and (max-width: 700px) {
-    margin: 2vw 4vw 6vw 4vw;
+    margin: 2vw 6vw 6vw 6vw;
   }
 }

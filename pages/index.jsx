@@ -27,10 +27,10 @@ export default function Home() {
       <Header />
       <Line />
       <Descrip />
-      <Projects />
       <Cards />
       <Blogcom />
       <Services />
+      <Projects />
       <Skills />
       {/* <Projectcards /> */}
       {/* <Projectcards /> */}
