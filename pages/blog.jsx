@@ -9,6 +9,7 @@ import Line from '../components/Line/Line'
 import Skills from '../components/Skills/Skills'
 import Blogcom from '../components/Blogcom/Blogcom'
 import Services from '../components/Services/Services'
+import Blogdes from '../components/Blogdes/Blogdes'
 
 export default function Blog() {
   return (
@@ -21,6 +22,7 @@ export default function Blog() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navbar />
+      <Blogdes />
       <Footer />
     </>
   )

@@ -11,6 +11,7 @@ import Line from '../components/Line/Line'
 import Skills from '../components/Skills/Skills'
 import Blogcom from '../components/Blogcom/Blogcom'
 import Services from '../components/Services/Services'
+import Projects from '../components/Projects/Projects'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Header />
       <Line />
       <Descrip />
+      <Projects />
       <Cards />
       <Blogcom />
       <Services />
