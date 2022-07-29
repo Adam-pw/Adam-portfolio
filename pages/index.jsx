@@ -22,6 +22,7 @@ export default function Home() {
         <meta name="keywords" content="Adam, adam, Adam Pithenwala, adam pithenwala, Adam pithenwala" />
         <meta name="Description" content="About Adam Pithenwala" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="shortcut icon" href="/images/favicon.ico" />
       </Head>
       <Navbar />
       <Header />
