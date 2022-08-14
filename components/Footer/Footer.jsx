@@ -1,20 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from "./Footer.module.scss"
 
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { addDoc, collection } from 'firebase/firestore';
+import { db } from '../../pages';
 
 const Footer = () => {
+
+  const [email, setEmail] = useState("");
+
+  const colRefemail = collection(db, "email");
+
+  const saveEmail = async (e) => {
+    e.preventDefault()
+    addDoc(colRefemail, { gmail: email }).then(() =>
+      console.log("sucess")).catch(err => console.error(err));
+  }
+
   return (
     <>
-      <div className={styles.email}>
-        <div className={styles.emailsub}>
-          <div className={styles.head}><b>Subscribe for Notifications</b></div>
-          <div className={styles.text}>
-            <input type='email' className={styles.mail} placeholder="Email address"/>
-            <button type='button' className={styles.button}>Submit</button>
+      <form>
+        <div className={styles.email}>
+          <div className={styles.emailsub}>
+            <div className={styles.head}><b>Subscribe for Notifications</b></div>
+            <div className={styles.text}>
+              <input className={styles.mail} onChange={(event) => {
+                setEmail(event.target.value);
+              }} />
+              <button typ="submit" className={styles.button} onClick={saveEmail}>Submit</button>
+            </div>
           </div>
         </div>
-      </div>
+      </form>
       <div className={styles.main}>
         <div className={styles.main2}>
           <div className={styles.last}>

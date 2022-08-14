@@ -40,7 +40,6 @@ getDocs(colRef).then((snapshot) => {
   console.log(blogs)
 });
 
-
 export default function Home() {
   return (
     <>

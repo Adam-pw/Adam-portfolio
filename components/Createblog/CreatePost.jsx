@@ -7,8 +7,8 @@ const CreatePost = () => {
   const [title, setTitle] = useState("");
   const [text, setText] = useState("");
 
-  const createPost = async () => {
-    console.log("123")
+  const createPost = async (e) => {
+    e.preventDefault()
     addDoc(colRef, { title: title, text: text }).then(() =>
       console.log("sucess")).catch(err => console.error(err));
   }
