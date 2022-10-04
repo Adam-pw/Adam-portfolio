@@ -2,7 +2,7 @@ import Cards from '../components/Cards/Cards'
 import Descrip from '../components/Descrip/Descrip'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
-import Navbar from '../components/Navbar/Navbar'
+import { Navbarh } from '../components/Navbarh/Navbarh'
 import Projectcards from '../components/Projectcards/Projectcards'
 import styles from '../styles/Home.module.scss'
 import Head from 'next/head'
@@ -51,7 +51,7 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="/images/favicon.ico" />
       </Head>
-      <Navbar />
+      <Navbarh />
       <Header />
       <Line />
       <Descrip />

@@ -2,7 +2,7 @@ import Cards from '../components/Cards/Cards'
 import Descrip from '../components/Descrip/Descrip'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
-import Navbar from '../components/Navbar/Navbar'
+import {Navbarh} from '../components/Navbarh/Navbarh'
 
 import Head from 'next/head'
 import Line from '../components/Line/Line'
@@ -21,7 +21,7 @@ export default function Blog() {
         <meta name="Description" content="About Adam Pithenwala" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Navbar />
+      <Navbarh />
       <Blogdes />
       <Footer />
     </>
