@@ -14,6 +14,7 @@ import Projects from '../components/Projects/Projects'
 
 import { initializeApp } from "firebase/app";
 import { collection, getDocs, getFirestore } from "firebase/firestore";
+import { Email } from '../components/Email/Email'
 
 const firebaseConfig = {
   apiKey: "AIzaSyB78Aq0L2IB576kyLEmyfzFxB9ij0RFCGc",
@@ -62,6 +63,7 @@ export default function Home() {
       <Skills />
       {/* <Projectcards /> */}
       {/* <Projectcards /> */}
+      <Email />
       <Footer />
     </>
   )

@@ -19,7 +19,7 @@ const Footer = () => {
 
   return (
     <>
-      <form>
+      {/* <form>
         <div className={styles.email}>
           <div className={styles.emailsub}>
             <div className={styles.head}><b>Subscribe for Notifications</b></div>
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </form>
+      </form> */}
       <div className={styles.main}>
         <div className={styles.main2}>
           <div className={styles.last}>
