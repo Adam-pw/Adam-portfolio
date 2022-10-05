@@ -18,7 +18,7 @@ const Descrip = () => {
                     </div>
                     <div className={styles.area2}>
                         <div className={styles.head}>
-                            <b>{"I am pursuing Bachlor of Technology in Artificial Intelligence & Data Science. With skill set of Web Development, Machine learning and Problem solving."}</b>
+                            <b>{"I am pursuing Bechelor of Technology in Artificial Intelligence & Data Science. With skill set of Web Development, Machine learning and Problem solving."}</b>
                         </div>
                         <div className={styles.subhead}>
                             Completed my higher education from Gyan Sagar Academy, Ujjain. Currently student of Madhav Institute of Technology & Science, Gwalior.
