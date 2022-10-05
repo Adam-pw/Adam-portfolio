@@ -23,7 +23,7 @@ const Cards = () => {
               </div>
               <div className={styles.content}>
                 {/* Check out my Github */}
-                <Link href="https://github.com/Adam-pw" passHref>
+                <Link href='https://github.com/Adam-pw' passHref>
                   <button className={styles.button}>Github</button>
                 </Link>
               </div>
