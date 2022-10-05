@@ -1,5 +1,5 @@
 import React from "react";
-
+import styles from "./Navbar.module.scss";
 import {
   createStyles,
   Header,
@@ -18,6 +18,7 @@ import {
   Drawer,
   Collapse,
   ScrollArea,
+  StylesApiProvider,
 } from "@mantine/core";
 import { MantineLogo } from "@mantine/ds";
 import { useDisclosure } from "@mantine/hooks";
@@ -102,112 +103,113 @@ const useStyles = createStyles((theme) => ({
 }));
 
 export function Navbarh() {
-
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
     useDisclosure(false);
   const [linksOpened, { toggle: toggleLinks }] = useDisclosure(false);
   const { classes, theme } = useStyles();
 
   return (
-    <Box pb={40}>
-      <Header height={60} px="md">
-        <Group position="apart" sx={{ height: "100%" }}>
-          {/* <MantineLogo size={30} /> */}
-          <b>ADAM</b>
-          <Group
-            sx={{ height: "100%" }}
-            spacing={0}
-            className={classes.hiddenMobile}
-          >
+    <>
+      <Box pb={40}>
+        <Header height={60} px="md" fixed={true}>
+          <Group position="apart" sx={{ height: "100%" }}>
+            {/* <MantineLogo size={30} /> */}
+            <b>ADAM</b>
+            <Group
+              sx={{ height: "100%" }}
+              spacing={0}
+              className={classes.hiddenMobile}
+            >
+              <a href="#" className={classes.link}>
+                Home
+              </a>
+              <Link
+                activeClass="active"
+                to="aboutme"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                <a href="#" className={classes.link}>
+                  About me
+                </a>
+              </Link>
+              <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+              >
+                <a href="#" className={classes.link}>
+                  Projects
+                </a>
+              </Link>
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+              >
+                <a href="#" className={classes.link}>
+                  Contact
+                </a>
+              </Link>
+            </Group>
+            <Group className={classes.hiddenMobile}>
+              <Button variant="default">{"Let's Talk"}</Button>
+            </Group>
+            <Burger
+              opened={drawerOpened}
+              onClick={toggleDrawer}
+              className={classes.hiddenDesktop}
+            />
+          </Group>
+        </Header>
+
+        <Drawer
+          opened={drawerOpened}
+          onClose={closeDrawer}
+          size="100%"
+          padding="md"
+          title="Navigation"
+          className={classes.hiddenDesktop}
+          zIndex={1000000}
+        >
+          <ScrollArea sx={{ height: "calc(100vh - 60px)" }} mx="-md">
+            <Divider
+              my="sm"
+              color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
+            />
+
             <a href="#" className={classes.link}>
               Home
             </a>
-            <Link
-              activeClass="active"
-              to="aboutme"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              <a href="#" className={classes.link}>
-                About me
-              </a>
-            </Link>
-            <Link
-              activeClass="active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={1000}
-            >
-              <a href="#" className={classes.link}>
-                Projects
-              </a>
-            </Link>
-            <Link
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={1000}
-            >
-              <a href="#" className={classes.link}>
-                Contact
-              </a>
-            </Link>
-          </Group>
-          <Group className={classes.hiddenMobile}>
-            <Button variant="default">{"Let's Talk"}</Button>
-          </Group>
-          <Burger
-            opened={drawerOpened}
-            onClick={toggleDrawer}
-            className={classes.hiddenDesktop}
-          />
-        </Group>
-      </Header>
+            <a href="#" className={classes.link}>
+              About me
+            </a>
+            <a href="#" className={classes.link}>
+              Projects
+            </a>
+            <a href="#" className={classes.link}>
+              Contact
+            </a>
+            <Divider
+              my="sm"
+              color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
+            />
 
-      <Drawer
-        opened={drawerOpened}
-        onClose={closeDrawer}
-        size="100%"
-        padding="md"
-        title="Navigation"
-        className={classes.hiddenDesktop}
-        zIndex={1000000}
-      >
-        <ScrollArea sx={{ height: "calc(100vh - 60px)" }} mx="-md">
-          <Divider
-            my="sm"
-            color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
-          />
-
-          <a href="#" className={classes.link}>
-            Home
-          </a>
-          <a href="#" className={classes.link}>
-            About me
-          </a>
-          <a href="#" className={classes.link}>
-            Projects
-          </a>
-          <a href="#" className={classes.link}>
-            Contact
-          </a>
-
-          <Divider
-            my="sm"
-            color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
-          />
-
-          <Group position="center" grow pb="xl" px="md">
-            <Button variant="default">{"Let's Talk"}</Button>
-          </Group>
-        </ScrollArea>
-      </Drawer>
-    </Box>
+            <Group position="center" grow pb="xl" px="md">
+              <Button variant="default">{"Let's Talk"}</Button>
+            </Group>
+          </ScrollArea>
+        </Drawer>
+      </Box>
+      <hr className={styles.line}></hr>
+    </>
   );
 }
