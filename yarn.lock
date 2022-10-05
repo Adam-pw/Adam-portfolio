@@ -2833,7 +2833,7 @@
   dependencies:
     "js-tokens" "^3.0.0 || ^4.0.0"
 
-"lottie-react@^2.2.1":
+"lottie-react@^2.3.1":
   "integrity" "sha512-8cxd6XZZtECT6LoAhCftRdYrEpHxiouvB5EPiYA+TtCG5LHNYAdMS9IVIHcxKtWnpo7x16QfCLj1XLXZpaN81A=="
   "resolved" "https://registry.npmjs.org/lottie-react/-/lottie-react-2.3.1.tgz"
   "version" "2.3.1"

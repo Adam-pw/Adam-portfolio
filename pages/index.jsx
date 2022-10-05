@@ -51,7 +51,7 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="/images/favicon.ico" />
       </Head>
-      <Navbarh />
+      <Navbarh/>
       <Header />
       <Line />
       <Descrip />

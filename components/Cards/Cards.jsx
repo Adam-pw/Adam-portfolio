@@ -10,6 +10,7 @@ const Cards = () => {
         <Fade left>
             <motion.div className={styles.main}>
                 <motion.div
+                 id="contact"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }} className={styles.card}>
                     <div className={styles.circle}>

@@ -12,7 +12,7 @@ const Projects = () => {
                 <div className={styles.img}><img src='/images/project1.png' className={styles.pb}></img></div>
                 <div className={styles.content}>
                     <div className={styles.type}>USING REACT JS</div>
-                    <div className={styles.subhead}><b>Smart India Hackhathon</b></div>
+                    <div className={styles.subhead} id="projects"><b>Smart India Hackhathon</b></div>
                     <div className={styles.read}>Read More</div>
                 </div>
             </div> 

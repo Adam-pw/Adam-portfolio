@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   createStyles,
   Header,
@@ -29,6 +30,7 @@ import {
   IconCoin,
   IconChevronDown,
 } from "@tabler/icons";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const useStyles = createStyles((theme) => ({
   link: {
@@ -100,6 +102,7 @@ const useStyles = createStyles((theme) => ({
 }));
 
 export function Navbarh() {
+
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
     useDisclosure(false);
   const [linksOpened, { toggle: toggleLinks }] = useDisclosure(false);
@@ -119,15 +122,42 @@ export function Navbarh() {
             <a href="#" className={classes.link}>
               Home
             </a>
-            <a href="#" className={classes.link}>
-              About me
-            </a>
-            <a href="#" className={classes.link}>
-              Projects
-            </a>
-            <a href="#" className={classes.link}>
-              Contact
-            </a>
+            <Link
+              activeClass="active"
+              to="aboutme"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <a href="#" className={classes.link}>
+                About me
+              </a>
+            </Link>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+            >
+              <a href="#" className={classes.link}>
+                Projects
+              </a>
+            </Link>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+            >
+              <a href="#" className={classes.link}>
+                Contact
+              </a>
+            </Link>
           </Group>
           <Group className={classes.hiddenMobile}>
             <Button variant="default">{"Let's Talk"}</Button>
