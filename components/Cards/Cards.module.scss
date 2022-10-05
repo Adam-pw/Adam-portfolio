@@ -1,15 +1,23 @@
+.img{
+  width: 100%;
+}
+.color{
+  background-color: black;
+  padding: 0.15vh 0vh;
+}
 .main {
-  margin: 3vw 12vw 10vw 12vw;
+  margin: 3vw 12vw 3vw 12vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   @media only screen and (max-width: 700px) {
-    margin: 3vw 6vw 10vw 6vw;
+    margin: 3vw 6vw 3vw 6vw;
   }
 
   .card {
     border: 0.2vw solid #171513;
+    background-color: white;
     width: 18vw;
     text-align: center;
     border-radius: 1vw;
