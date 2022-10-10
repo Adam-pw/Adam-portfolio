@@ -3,20 +3,8 @@ import styles from "./Footer.module.scss"
 
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import { addDoc, collection } from 'firebase/firestore';
-import { db } from '../../pages';
 
 const Footer = () => {
-
-  const [email, setEmail] = useState("");
-
-  const colRefemail = collection(db, "email");
-
-  const saveEmail = async (e) => {
-    e.preventDefault()
-    addDoc(colRefemail, { gmail: email }).then(() =>
-      console.log("sucess")).catch(err => console.error(err));
-  }
-
   return (
     <>
       {/* <form>

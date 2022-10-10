@@ -1,17 +1,8 @@
-import { addDoc } from 'firebase/firestore';
+// import { addDoc } from 'firebase/firestore';
 import React, { useState } from 'react';
-import { colRef } from '../../pages';
+// import { colRef } from '../../pages';
 
 const CreatePost = () => {
-
-  const [title, setTitle] = useState("");
-  const [text, setText] = useState("");
-
-  const createPost = async (e) => {
-    e.preventDefault()
-    addDoc(colRef, { title: title, text: text }).then(() =>
-      console.log("sucess")).catch(err => console.error(err));
-  }
 
   return (
     <div>
@@ -25,11 +16,9 @@ const CreatePost = () => {
         </div>
         <div>
           Content<br />
-          <textarea onChange={(event) => {
-            setText(event.target.value);
-          }} />
+          <textarea />
         </div>
-        <button onClick={createPost}>Save</button>
+        <button>Save</button>
       </form>
     </div >
   )

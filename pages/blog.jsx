@@ -1,14 +1,14 @@
-import Cards from '../components/Cards/Cards'
-import Descrip from '../components/Descrip/Descrip'
+// import Cards from '../components/Cards/Cards'
+// import Descrip from '../components/Descrip/Descrip'
 import Footer from '../components/Footer/Footer'
-import Header from '../components/Header/Header'
+// import Header from '../components/Header/Header'
 import {Navbarh} from '../components/Navbarh/Navbarh'
 
 import Head from 'next/head'
-import Line from '../components/Line/Line'
-import Skills from '../components/Skills/Skills'
-import Blogcom from '../components/Blogcom/Blogcom'
-import Services from '../components/Services/Services'
+// import Line from '../components/Line/Line'
+// import Skills from '../components/Skills/Skills'
+// import Blogcom from '../components/Blogcom/Blogcom'
+// import Services from '../components/Services/Services'
 import Blogdes from '../components/Blogdes/Blogdes'
 
 export default function Blog() {
