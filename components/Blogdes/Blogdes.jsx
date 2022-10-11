@@ -1,15 +1,32 @@
-import styles from './Blogdes.module.scss'
+import { createStyles, Text, Avatar, Group } from "@mantine/core";
+import { useState, useEffect } from "react";
+import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
 
+const useStyles = createStyles((theme) => ({
+  body: {
+    paddingLeft: 54,
+    paddingTop: theme.spacing.sm,
+  },
+}));
+import styles from "./Blogdes.module.scss";
+import { database } from "../../firebase/firebaseConfig.js";
 
-
-const Blogdes = props => {
-    return <>
+export function Blogdes( {arr}) {
+  const { classes } = useStyles();
+  return (
     <div className={styles.main}>
-        <div className={styles.head}>{props.head}</div>
-        <div className={styles.descrip}>{props.description}</div>
-        <div></div>
+      <Group>
+        <Avatar src="/" alt="dhgkjdkjkh" radius="xl" />
+        <div>
+          <Text size="sm">Adam Pithenwala</Text>
+            <Text size="xs" color="dimmed">
+            {arr.data.title}
+            </Text>
+        </div>
+      </Group>
+        <Text className={classes.body} size="sm">
+        {arr.data.content}
+        </Text>
     </div>
-    </>
-};
-
-export default Blogdes
+  );
+}

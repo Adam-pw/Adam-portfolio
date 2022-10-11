@@ -120,9 +120,9 @@ export function Navbarh() {
               spacing={0}
               className={classes.hiddenMobile}
             >
-              <a href="#" className={classes.link}>
+              <Link href='/' className={classes.link}>
                 Home
-              </a>
+              </Link>
               <Link
                 activeClass="active"
                 to="aboutme"
