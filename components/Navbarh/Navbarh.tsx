@@ -120,7 +120,7 @@ export function Navbarh() {
               spacing={0}
               className={classes.hiddenMobile}
             >
-              <Link href='/' className={classes.link}>
+              <Link href="/" className={classes.link}>
                 Home
               </Link>
               <Link
@@ -161,7 +161,9 @@ export function Navbarh() {
               </Link>
             </Group>
             <Group className={classes.hiddenMobile}>
-              <Button variant="default">{"Let's Talk"}</Button>
+              <Link href="mailto:adampithewan@gmail.com">
+                <Button variant="default">{"Let's Talk"}</Button>
+              </Link>
             </Group>
             <Burger
               opened={drawerOpened}
@@ -202,9 +204,10 @@ export function Navbarh() {
               my="sm"
               color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
             />
-
             <Group position="center" grow pb="xl" px="md">
-              <Button variant="default">{"Let's Talk"}</Button>
+              <Link href="adampithewan@gmail.com">
+                <Button variant="default">{"Let's Talk"}</Button>
+              </Link>
             </Group>
           </ScrollArea>
         </Drawer>
