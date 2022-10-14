@@ -7,19 +7,6 @@ import { addDoc, collection } from 'firebase/firestore';
 const Footer = () => {
   return (
     <>
-      {/* <form>
-        <div className={styles.email}>
-          <div className={styles.emailsub}>
-            <div className={styles.head}><b>Subscribe for Notifications</b></div>
-            <div className={styles.text}>
-              <input className={styles.mail} onChange={(event) => {
-                setEmail(event.target.value);
-              }} />
-              <button typ="submit" className={styles.button} onClick={saveEmail}>Submit</button>
-            </div>
-          </div>
-        </div>
-      </form> */}
       <div className={styles.main}>
         <div className={styles.main2}>
           <div className={styles.last}>

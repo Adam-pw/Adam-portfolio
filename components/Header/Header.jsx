@@ -22,7 +22,7 @@ const Header = () => {
         </div>
         <div className={styles.main_p}>
           <Fade left cascade>
-            <b>{"A CREATIVE DEVELOPER & PROGRAMMER"}</b>
+            <b>{"A CREATIVE DEVELOPER &  PROGRAMMER"}</b>
           </Fade>
         </div>
         <Fade left cascade>

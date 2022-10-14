@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from "./Skills.module.scss"
-
-import Image from 'next/image'
 import { Fade } from 'react-reveal'
 
 const Skills = () => {
