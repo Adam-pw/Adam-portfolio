@@ -12,6 +12,7 @@ import Blogcom from '../components/Blogcom/Blogcom'
 import Services from '../components/Services/Services'
 import Projects from '../components/Projects/Projects'
 import { Email } from '../components/Email/Email'
+import Stars from '../components/Stars/Stars'
 
 export default function Home() {
   return (

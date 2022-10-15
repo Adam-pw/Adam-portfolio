@@ -1,5 +1,5 @@
 .main {
-  margin: 6vw 12vw 10vw 12vw;
+  margin: 12vw 12vw 10vw 12vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -77,8 +77,8 @@
   display: flex;
   flex-direction: row;
   .two {
-    background-color: #171513;
-    color: white;
+    background-color: white;
+    color: black;
     width: 33%;
     text-align: center;
     .namehead {
@@ -103,7 +103,7 @@
   .one {
     width: 33%;
     text-align: center;
-    border: 0.2vw solid #171513;
+    border: 0.2vw solid white;
     .namehead {
       margin-top: 1vw;
       margin-bottom: 1vw;
@@ -125,5 +125,25 @@
   }
   @media only screen and (max-width: 700px) {
     margin: 6vw 8vw 12vw 8vw;
+  }
+}
+
+.section-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 65vw;
+  background-color: black;
+  width: 100%;
+  color: #FFFFFF;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // opacity: 0.75;
+  padding: 2vw 0vw;
+  margin-bottom: 6vw;
+  @media only screen and (max-width: 700px) {
+    // flex-direction: column;
+    height: 140vw;
   }
 }
