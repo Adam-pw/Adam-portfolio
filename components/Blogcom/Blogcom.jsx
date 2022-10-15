@@ -10,7 +10,7 @@ const Blogcom = () => {
                 <div className={styles.head}>
                     <b>My Personal Blog</b>
                 </div>
-                <div className={styles.sub}>VIEWS & ACCOIMPLISHMENTS</div>
+                <div className={styles.sub}>VIEWS & ACCOMPLISHMENT</div>
                 <Link href='/blog'>
                     <div className={styles.box}>
                         <div className={styles.box1}>

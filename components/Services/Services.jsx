@@ -8,7 +8,7 @@ const Services = () => {
         <>
         <Fade right>
             <div className={styles.head}><b>Services</b></div>
-            <div className={styles.sub}>REGONITIONS & ACCOIMPLISHMENTS</div>
+            <div className={styles.sub}>REGONITIONS & ACCOMPLISHMENT</div>
             <div className={styles.parent}>
                 <div className={styles.box}>
                     <div className={styles.heading}>

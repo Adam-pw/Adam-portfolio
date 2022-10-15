@@ -6,7 +6,7 @@ const Skills = () => {
     return (
         <>
             <Fade bottom>
-                <div className={styles.head}><b>Things I Know</b></div>
+                <div className={styles.head}><b>{"Things I've Learned"}</b></div>
                 <div className={styles.parent}>
                     <div className={styles.box}>Java</div>
                     <div className={styles.box}>C++</div>
