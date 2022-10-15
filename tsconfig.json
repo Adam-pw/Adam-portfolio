@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/Email/Email.jsx", "firebase/firebaseConfig.js"  ],
+, "components/Email/Email.jsx", "firebase/firebaseConfig.js", "components/Preloader/Preloader.jsx"  ],
   "exclude": [
     "node_modules"
   ]
