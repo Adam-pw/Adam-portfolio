@@ -5,14 +5,6 @@ import styles from "./Preloader.module.scss";
 import animationData from "./spinner.json";
 
 export default function PreLoader({ isLoaded }) {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
 
   const options = {
     animationData: animationData,

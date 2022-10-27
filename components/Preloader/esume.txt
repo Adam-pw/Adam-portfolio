@@ -1,0 +1,57 @@
+Adam Pithenwala
+
+Ujjain
+7777881545
+
+An enthusiastic programmer. I'm quite interested in design and development. I'm currently in my second year, and I am looking forward to building connections, opportunities and learning new things through project-based learning.
+
+PERSONAL INFORMATION
+  Address: , Ujjain, 
+  Nationality: 
+  Driving License: 
+  Hobbies: 
+
+SOCIAL PROFILES
+  * Portfolio Website: https://adam-pw.vercel.app/
+  * Github: https://adam-pw.vercel.app/
+  * Linkedin: https://www.linkedin.com/in/adam-pithewan
+
+SKILLS
+  ★★★★☆ JavaScript
+  ★★★★★ Git
+  ★★★☆☆ Firebase
+  ★★★★★ HTML & CSS
+  ★★★☆☆ Node.js
+  ★★★★☆ Linux
+  ★★★★☆ C++
+
+EDUCATION
+  * September 2020 – Present
+    Madhav Institute of Technology and Science, Gwalior B.Tech Artificial Intelligence and Data Science
+  * 
+    Gyan Sagar Academy, Ujjain High School
+
+INTERNSHIPS
+  * February 2021 – April 2021
+    Web Developer at Cybercycleoid, Gwalior
+
+    College Based Startup For Services
+  * 
+     at , 
+
+EXTRA-CURRICULAR ACTIVITIES
+  * September 2022 – Present
+    Team Member at GYWS, LIGHT, Gwalior
+
+    Part of the one of the biggest student running NGO.
+
+
+  * Projects, , 
+
+    
+  Got selected for International MLH hackathon Hack Mountain 3.0 and attended it in offline mode. Built a website for farmers related to bio mass and bio fuels.
+  Participated in SIH Hackathon and build a portal for student where they can get knowledge about all the scholarships and events related to it.
+  Built a mobile app using Ionic for event in college.
+  Built my own website using Next.Js and its libraries used Firebase in back-end.
+
+
