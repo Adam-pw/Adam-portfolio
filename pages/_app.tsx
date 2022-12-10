@@ -1,5 +1,5 @@
 import "../styles/globals.scss";
-
+import { Analytics } from '@vercel/analytics/react';
 import React from "react";
 
 import { AppProps } from "next/app";
@@ -32,6 +32,7 @@ export default function MyApp(props: AppProps) {
         }}
       >
         <Component {...pageProps} />
+        <Analytics />
       </MantineProvider>
     </>
   );

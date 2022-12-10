@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Descrip.module.scss";
 import Fade from "react-reveal/Fade";
-import background from "../../public/images/scrol.jpg";
 import Stars from "../Stars/Stars";
 
 const Descrip = () => {
